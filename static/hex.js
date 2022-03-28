@@ -56,7 +56,6 @@ function Line() {
   this.reset()
 }
 Line.prototype.reset = function () {
-  console.log('resettings')
   var maxX = Math.ceil(w / 24) * 24
   var maxY = Math.ceil(h / 24) * 24
   this.startX = Math.random() < 0.5 ? maxX : 0
