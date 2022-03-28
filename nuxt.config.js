@@ -29,6 +29,7 @@ export default {
         href: 'https://fonts.googleapis.com/css2?family=Heebo&display=swap',
       },
     ],
+    script: [{ src: 'hex.js', body: true }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
